@@ -1,7 +1,7 @@
 from src.get_SteamVR_path import real_case_path, find_steam_path
 from src.check_current_rendermodel import check_current_rendermodel
-from src.touchpro_replace import TouchPro_Replace
-from src.touchplus_restore import TouchPlus_Restore
+from src.TouchPlus.touchpro_plus_replace import TouchPro_Plus_Replace
+from src.TouchPlus.touchplus_restore import TouchPlus_Restore
 from src.clear import clear
 
 def action_selector():
@@ -22,7 +22,7 @@ def action_selector():
 
         match usr_choice:
             case "1":
-                TouchPro_Replace()
+                TouchPro_Plus_Replace()
             case "2":
                 TouchPlus_Restore()
             case "0":
