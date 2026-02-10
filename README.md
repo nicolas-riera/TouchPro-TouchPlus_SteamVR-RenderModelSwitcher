@@ -1,4 +1,4 @@
-# QuestTouch_SteamVR-RenderModelSwitcher
+# SteamVR-RenderModelSwitcher
 
 ![pythonversion](https://img.shields.io/badge/python-3.x-blue)
 
