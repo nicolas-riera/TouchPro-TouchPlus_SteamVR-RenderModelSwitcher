@@ -4,6 +4,8 @@ from src.TouchPlus.touchpro_plus_replace import TouchPro_Plus_Replace
 from src.TouchPlus.touchplus_restore import TouchPlus_Restore
 from src.TouchQuest2.touchpro_quest2_replace import TouchPro_Quest2_Replace
 from src.TouchQuest2.touchquest2_restore import TouchQuest2_Restore
+from src.wands.vive_2_set import Vive_2_set
+from src.wands.vive_1_set import Vive_1_set
 from src.clear import clear
 
 def action_selector():
@@ -74,14 +76,14 @@ def action_selector():
                     elif device == "Quest 3":
                         TouchPro_Plus_Replace()
                     elif device == "Wands":
-                        pass
+                        Vive_2_set()
                 case "2":
                     if device == "Quest 2":
                         TouchQuest2_Restore()
                     elif device == "Quest 3":
                         TouchPlus_Restore()
                     elif device == "Wands":
-                        pass
+                        Vive_1_set()
                 case "3":
                     device = None
                     continue
