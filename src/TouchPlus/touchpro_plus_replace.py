@@ -6,8 +6,8 @@ from src.clear import clear
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-SOURCE_LEFT = os.path.join(BASE_DIR, "..", "..", "assets", "TouchPro_Models", "oculus_quest_plus_controller_left")
-SOURCE_RIGHT = os.path.join(BASE_DIR, "..", "..", "assets", "TouchPro_Models", "oculus_quest_plus_controller_right")
+SOURCE_LEFT = os.path.join(BASE_DIR, "..", "..", "assets", "Touch Plus", "TouchPro_Models", "oculus_quest_plus_controller_left")
+SOURCE_RIGHT = os.path.join(BASE_DIR, "..", "..", "assets", "Touch Plus", "TouchPro_Models", "oculus_quest_plus_controller_right")
 
 DESTINATION_LEFT = os.path.join(os.path.join(real_case_path(find_steam_path()), "steamapps", "common", "SteamVR", "resources", "rendermodels", "oculus_quest_plus_controller_left"))
 DESTINATION_RIGHT = os.path.join(os.path.join(real_case_path(find_steam_path()), "steamapps", "common", "SteamVR", "resources", "rendermodels", "oculus_quest_plus_controller_right"))
